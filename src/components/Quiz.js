@@ -30,6 +30,7 @@ function Quiz() {
             const qList = await axios.get(url);
             if (qList.data.length === 0) {
                 alert("끝");
+                setPageNumber(PageNumber - 1);
                 return false;
             }
             setQList(qList);
@@ -51,6 +52,8 @@ function Quiz() {
         }
     }
     const chk = (input) => {
+
+
         if (qList.data[0].Answer == input.target.id) {
             alert("정답입니다");
             next();
@@ -59,6 +62,7 @@ function Quiz() {
             prev();
         }
     }
+
 
     return (
         <div className="App">
@@ -93,7 +97,7 @@ const QuizBody = ({total, completed, props}) => {
     } else {
 
         return <div>
-            <Card border="primary" style={{width: '18rem'}}>
+            <Card border="primary" style={{width: '30rem', margin:"auto", marginBottom : "10px"}}>
                 {/*<Card.Img variant="top" src="public/q1.png"/>*/}
                 <Card.Body>
                     <Card.Title>{props.PageNumber + 1} 번 문제</Card.Title>

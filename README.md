@@ -1,3 +1,7 @@
+"homepage": "https://kenken0803.github.io/react_single_page_board/"
+"homepage": "https://ec2-13-125-250-203.ap-northeast-2.compute.amazonaws.com:8080/"
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -20,7 +20,7 @@ function App() {
             <Route path="/modify" component={Modify}/>
             <Route path="/loc" component={Location}/>
             <Route path="/quiz" component={Quiz}/>
-            <Nav/>
+            {/*<Nav/>*/}
             <Footer/>
         </HashRouter>
     )

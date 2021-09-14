@@ -1,8 +1,10 @@
 .remain{
     color: red;
-    font-size: xxx-large;
 }
-
+.over{
+    color: red;
+    font-size: xx-large;
+}
 .App {
     text-align: center;
 }

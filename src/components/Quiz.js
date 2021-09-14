@@ -9,7 +9,7 @@ import axios from "axios";
 
 function Completionist() {
 
-    return (<span className="remain">GAME OVER</span>);
+    return (<span className="over">GAME OVER</span>);
 
 }
 

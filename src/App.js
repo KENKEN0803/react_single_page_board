@@ -8,7 +8,7 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import NavBar from "./components/NavBar";
 import Location from "./components/Location";
-
+import Quiz from "./components/Quiz";
 
 function App() {
     return (
@@ -19,6 +19,7 @@ function App() {
             <Route path="/writer" component={Writer}/>
             <Route path="/modify" component={Modify}/>
             <Route path="/loc" component={Location}/>
+            <Route path="/quiz" component={Quiz}/>
             <Nav/>
             <Footer/>
         </HashRouter>

@@ -1,14 +1,21 @@
+.remain{
+    color: red;
+    font-size: xxx-large;
+}
+
 .App {
     text-align: center;
 }
 
 table {
+    width:90%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .rowrow:hover {
     background-color: #EAE9E7;
+    cursor: grab;
 }
 
 .header {

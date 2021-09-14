@@ -25,12 +25,14 @@ function NavBar() {
                         <li className="nav-item">
                             <Link to="/loc"><a className="nav-link">점심 뭐먹지</a></Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to="/quiz"><a className="nav-link">자스</a></Link>
+                        </li>
                         <li className="nav-item dropdown">
                             <Dropdown>
                                 <Dropdown.Toggle variant="success" id="dropdown-basic">
-                                    Dropdown Button
+                                    드롭다운
                                 </Dropdown.Toggle>
-
                                 <Dropdown.Menu>
                                     <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
                                     <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
@@ -38,11 +40,6 @@ function NavBar() {
                                 </Dropdown.Menu>
                             </Dropdown>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-
-                    
                     </ul>
                     <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
